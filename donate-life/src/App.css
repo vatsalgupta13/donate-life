@@ -1,0 +1,46 @@
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafa;
+}
+
+.header {
+	width: 100%;
+	min-height: 70px;
+	box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.03);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center !important;
+}
+
+.tabs {
+	color: #6c63ff !important;
+}
+
+.form-container {
+	min-height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: fixed;
+	width: 100vw;
+	left: 0px;
+	margin-top: 0px;
+}
+
+.form {
+	min-width: 600px;
+	min-height: 300px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.input {
+	height: 35px;
+	width: 400px;
+	border-radius: 4px;
+}
